@@ -12,12 +12,12 @@
   3.ディレクトリの移動<br>
     cd contact-form<br>
   4.パッケージをインストール（改行しない）<br>
-  　docker run --rm \ 
-    -u "$(id -u):$(id -g)" \
-    -v "$(pwd):/var/www/html" \
-    -w /var/www/html \
-    laravelsail/php82-composer:latest \
-    composer install\<br>
+  　docker run --rm \\
+    -u "$(id -u):$(id -g)" \\
+    -v "$(pwd):/var/www/html" \\
+    -w /var/www/html \\
+    laravelsail/php82-composer:latest \\
+    composer install\\<br>
   5.環境ファイルを作成<br>
     cp .env.example .env<br>
   6.laravel sailを起動<br>

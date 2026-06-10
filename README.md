@@ -17,7 +17,7 @@
     -v "$(pwd):/var/www/html" \
     -w /var/www/html \
     laravelsail/php82-composer:latest \
-    composer install\<br>
+    composer install\
   5.環境ファイルを作成<br>
     cp .env.example .env<br>
   6.laravel sailを起動<br>

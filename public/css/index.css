@@ -1,0 +1,176 @@
+.header {
+    background: #FFFFFF;
+    height: 80px;
+    border-bottom: solid 2px #F9F9F9;
+    font-family: "Copse", serif;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Copse", serif;
+}
+
+.contact-form__content {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    font-family: "Copse", serif;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form__group--content {
+    color: #8B7969;
+}
+
+.form__label--item {
+    color: #8B7969;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #FFCDCC;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--name {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.form__input--name input {
+    padding: 10px;
+    height: 40px;
+    width: 270px;
+    background-color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__group--radio {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin-bottom: 15px;
+    color: #8B7969;
+}
+
+.form__group--radio label {
+    margin-right: 100px;
+    color: #8B7969;
+}
+
+.form__input--tel {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.form__input--tel input {
+    padding-left: 75px;
+    height: 40px;
+    width: 170px;
+    background-color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--tel p {
+    line-height: 0px;
+    color: #8B7969;
+}
+
+.form__input--select {
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    background-color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #82756B;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #82756B;
+}
+
+select,
+option {
+    padding: 10px;
+    color: #82756B;
+    background-color: #F4F4F4;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+}

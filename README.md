@@ -24,7 +24,7 @@
     ./vendor/bin/sail up -d<br>
   7.アプリケーションキーを生成<br>
   　./vendor/bin/sail artisan key:generate<br>
-　8.データベースのマイグレーションとシーダーを実行<br>
+8.データベースのマイグレーションとシーダーを実行<br>
    ./vendor/bin/sail artisan migrate:fresh --seed<br>
 # 実行環境
   ・PHP 8.2<br>

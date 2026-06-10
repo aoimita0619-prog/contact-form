@@ -9,20 +9,22 @@
     cd contact-form<br>
   2.お問い合わせフォームをクローン<br>
   　git clone https://github.com/aoimita0619-prog/contact-form.git<br>
-  3.パッケージをインストール<br>
-  　docker run --rm \
+  3.ディレクトリの移動<br>
+    cd contact-form<br>
+  4.パッケージをインストール（改行しない）<br>
+  　docker run --rm \ 
     -u "$(id -u):$(id -g)" \
     -v "$(pwd):/var/www/html" \
     -w /var/www/html \
     laravelsail/php82-composer:latest \
-    composer install<br>
-  4.環境ファイルを作成<br>
+    composer install\<br>
+  5.環境ファイルを作成<br>
     cp .env.example .env<br>
-  5.laravel sailを起動<br>
+  6.laravel sailを起動<br>
     ./vendor/bin/sail up -d<br>
-  4.アプリケーションキーを生成<br>
+  7.アプリケーションキーを生成<br>
   　./vendor/bin/sail artisan key:generate<br>
-　5.データベースのマイグレーションとシーダーを実行<br>
+　8.データベースのマイグレーションとシーダーを実行<br>
    ./vendor/bin/sail artisan migrate --seed<br>
 # 実行環境
   ・PHP 8.2<br>
